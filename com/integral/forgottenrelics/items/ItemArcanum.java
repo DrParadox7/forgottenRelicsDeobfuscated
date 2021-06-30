@@ -93,7 +93,7 @@
 /*     */       
 /*  94 */       if (wandList.size() > 0)
 /*     */       {
-/*  96 */         Aspect randomAspect = primalAspects.get((int)(Math.random() * 5.0D));
+/*  96 */         Aspect randomAspect = primalAspects.get((int)(Math.random() * 6.0D));
 /*     */         
 /*  98 */         ItemStack randomWand = SuperpositionHandler.getRandomValidWand(wandList, randomAspect);
 /*     */         
